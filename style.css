@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+#banner{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid red;
+}
+
+h1 a{
+    text-decoration: none !important;
+}

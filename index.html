@@ -1,8 +1,8 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title> Sohail Barat Resume </title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
@@ -14,16 +14,61 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-      <div class="container">
+      <!-- Header --> 
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
-            <h1>  </h1>
+          <div class="col-md-3">
+            <h1> <a href="#"> Sohail Barat </a> </h1>
           </div>
-          <div class="col-md-10">
+          <div class="col-md-9">
+              <nav>
+                <ul class="nav justify-content-end"> 
+                    <li class="nav-item"> <a class="nav-link" href="#"> Home </a>  </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> Projects </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> About Me </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> Contact </a> </li>
+                </ul>
+              </nav>
           </div>
         </div>
       </div>
+      
+      <!-- Carousel --> 
+      <div class="container-fluid" id="banner">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/services1.jpg" alt="Los Angeles" width="1100" height="500">
+              <div class="carousel-caption">
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="images/services2.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="images/services3.jpg" alt="New York" width="1100" height="500">
+              <div class="carousel-caption">
+              </div>   
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    </div>
   </body>
 </html>
